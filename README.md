@@ -1,12 +1,11 @@
 
 # FlickPick - Finding Your New Favorite Film 
 
- > ## Developers: 
+ ## Developers: 
  > * Dylan Nguyen (https://github.com/thedigitalchief)
  > * Naveen Joby (https://github.com/navjoby)
  > * Adelfa Freeman (https://github.com/afree020)
  > * Christian Lo (https://github.com/clo901)
-
 
 ## Phase I
  * Brief Summary
