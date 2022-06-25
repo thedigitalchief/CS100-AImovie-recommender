@@ -1,11 +1,11 @@
 
 # Project Name: Flick Picks - Find Your Next Favorite Film Instantly!
 
- > # Authors: 
+ > # Developers: 
+ > * Dylan Nguyen (https://github.com/thedigitalchief)
  > * Christian Lo (https://github.com/clo901)
  > * Naveen Joby (https://github.com/navjoby)
  > * Adelfa Freeman (https://github.com/afree020)
- > * Dylan Nguyen (https://github.com/thedigitalchief)
 
 
 ## Phase I
