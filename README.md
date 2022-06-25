@@ -1,11 +1,11 @@
 
-# Project Name: Flick Picks - Find Your Next Favorite Film Instantly!
+# FlickPick - Finding Your New Favorite Film 
 
- > # Developers: 
+ > ## Developers: 
  > * Dylan Nguyen (https://github.com/thedigitalchief)
- > * Christian Lo (https://github.com/clo901)
  > * Naveen Joby (https://github.com/navjoby)
  > * Adelfa Freeman (https://github.com/afree020)
+ > * Christian Lo (https://github.com/clo901)
 
 
 ## Phase I
@@ -15,9 +15,9 @@
   * Why is it important or interesting to you?
     * All of us like watching movies and have differing opinions on ranking the top movies, so we thought it would be fun to create something that we can bond over and enjoy. 
   * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
-    * We will be creating our project using C++. We will also use data gathered from leading websites to aggregate the recommendation data.
+    * We developed this project using C++. We will also use data gathered from leading websites to aggregate the recommendation data and implemented multiple sorting algorithms to identify, analyze, and ultimately choose the best film curated to the user's taste. We also performed extensive Unit and Edge Testing via Valgrind.
   * What will be the input/output of your project? What are the features that the project provides?
-    * The user will choose from a menu of options (including List all, Add, List by genre, List by director, Recommend). Based on the choice the user makes they   will either see a list, a new menu or a recommendation.
+    * The user will choose from a menu of options (including List all, Add, List by genre, List by director, Recommend). Based on the choice the user makes they will either see a list, a new menu or a recommendation.
     
 
 
@@ -66,14 +66,16 @@
 ![11](https://user-images.githubusercontent.com/93842458/157750391-79779a75-2a8c-46c9-960f-d92c1dce749e.png)
 ![12](https://user-images.githubusercontent.com/93842458/157750433-d1ef35b0-d401-42e9-b48c-0b3ff96f0ab3.png)
 
+
+
  ## Installation/Usage
  > To be able to install and use this program correctly, you first have to open up a terminal and clone the repository. Once you have the repository cloned, you then have to cd into the repository. After you cd into it, you then run the command "cmake3 ." which will build and construct your CMakeFiles. Once the CMakeFiles have been built and it is configured correctly, you will then need to type in the code "make" into terminal which will then scan and make the add executable files in the CMakeLists.txt file. Finally, you will then type and run "./test" into terminal which will finally test and show the correct and incorrect tests(if any) outputed to the terminal. Once you have run ./test into terminal, you will lastly input and run "./main" into terminal which will lastly run the program.
 
 <img width="678" alt="Tests" src="https://user-images.githubusercontent.com/93842458/157752597-5f133b6c-eb40-43be-81da-601a3d43d193.png">
 
 
- ## Testing
- > In testing the program we ran all of our tests through googletest. We created one file to run all of our tests for us called test.cpp. To run the tests properly we simply check and run the code "./test" which will run correctly after compiling with "make". We also had to check for memory leaks within our code so we used a line of code called "valgrind" which checks our programs and displays any possible leaks within our code. 
+ ## Unit Testing
+ > In testing the program we ran all of our tests through the Valgrind framework. We created one file to run all of our tests for us called test.cpp. To run the tests properly we simply check and run the code "./test" which will run correctly after compiling with "make". We also had to check for memory leaks within our code so we used a line of code called "valgrind" which checks our programs and displays any possible leaks within our code. 
 
 ![valgrind](https://user-images.githubusercontent.com/93842458/157751175-f032091e-94f9-4c34-93c0-3c223212f2c3.png)
 ![Valgrind 2](https://user-images.githubusercontent.com/93842458/157752182-b0a504d2-8f20-4682-b9a2-79914b10b10e.png)
